@@ -1,5 +1,5 @@
 # FlowerPot
-A basic RAT [Remote Administration Tool] meant for Linux machines.
+A basic RAT (Remote Administration Tool) meant for Linux machines.
 
 # How to use
 NOTE: THIS TOOL ONLY WORKS ON LINUX MACHINES. DO NOT TRY COMPILING MAIN.C FOR WINDOWS AS IT WILL NOT WORK.
