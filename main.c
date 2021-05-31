@@ -41,6 +41,7 @@ int terminal()
             main();
         }
         system(ques);
+        terminal();
         return 0;
     }
 }
