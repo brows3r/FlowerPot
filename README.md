@@ -2,6 +2,7 @@
 A basic RAT [Remote Administration Tool] meant for Linux machines.
 
 # How to use
+NOTE: THIS TOOL ONLY WORKS ON LINUX MACHINES. DO NOT TRY COMPILING MAIN.C FOR WINDOWS AS IT WILL NOT WORK.
 So first we must open up `post.c` and replace `IP_HERE` with our own IP address.
 ![image](https://user-images.githubusercontent.com/78043996/120229089-6850dc00-c21a-11eb-9244-488b4df339d5.png)
 
