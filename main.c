@@ -78,24 +78,7 @@ int main()
         }
         else if (strcmp(menu, "listener") == 0)
         {
-            printf("\n[1] - Windows");
-            printf("\n[2] - Linux");
-            printf("\nMake sure you have Netcat installed!\n");
-            char ncatt[100];
-            printf("\nPick an option (number) > ");
-            scanf("%s", ncatt);
-            if (strcmp(ncatt, "1") == 0)
-            {
-                system("ncat -lvp 4444");
-            }
-            else if (strcmp(ncatt, "2") == 0)
-            {
-                system("nc -lvp 4444");
-            }
-            else
-            {
-                printf("\nCommand [%s] was not found.", ncatt);
-            }
+            system("nc -lvp 4444");
         }
         else
         {
