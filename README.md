@@ -18,6 +18,11 @@ Now lets execute the file on the target machine.
 Now as you can see, we got a connection! So now we are able to have some fun. We now have a post-exploitation framework loaded right after we get a connection. Now we can pretty much do whatever we want.
 ![image](https://user-images.githubusercontent.com/78043996/120230210-db5b5200-c21c-11eb-8806-89f8b8a8ace9.png)
 
+# How does it work?
+Well, it's actually extremely simple.
+
+Once the listener has started and the target has executed the file, it will use `curl` to download the post-exploitation framework, and then when we got our connection, the first thing that it loads is the framework, so now we have all these options for controlling and gathering information about the machine we just got access to.
+
 # Screenshots
 ![image](https://user-images.githubusercontent.com/78043996/120229700-a7336180-c21b-11eb-8704-785e3fe6b539.png)
 
